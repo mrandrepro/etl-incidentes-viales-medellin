@@ -1,0 +1,8 @@
+pandas
+numpy
+plotly
+sqlalchemy
+pymysql
+requests
+great-expectations==0.18.15
+apache-airflow==2.8.1

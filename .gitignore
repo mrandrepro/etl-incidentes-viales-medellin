@@ -1,0 +1,10 @@
+1_raw_data/*.csv
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+config.ini
+secrets.py
+great_expectations/uncommitted/
