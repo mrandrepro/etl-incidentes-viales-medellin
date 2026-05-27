@@ -296,3 +296,10 @@
 [2026-05-27T00:45:30.134+0000] {logging_mixin.py:188} INFO - [2026-05-27T00:45:30.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-05-27T00:45:30.160+0000] {logging_mixin.py:188} INFO - [2026-05-27T00:45:30.159+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_incidentes_viales_v2 to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
 [2026-05-27T00:45:30.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_incidentes_dag.py took 0.131 seconds
+[2026-05-27T00:46:00.270+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/etl_incidentes_dag.py
+[2026-05-27T00:46:00.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_incidentes_dag.py for tasks to queue
+[2026-05-27T00:46:00.272+0000] {logging_mixin.py:188} INFO - [2026-05-27T00:46:00.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_incidentes_dag.py
+[2026-05-27T00:46:00.318+0000] {processor.py:840} INFO - DAG(s) 'etl_incidentes_viales_v2' retrieved from /opt/airflow/dags/etl_incidentes_dag.py
+[2026-05-27T00:46:00.347+0000] {logging_mixin.py:188} INFO - [2026-05-27T00:46:00.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-27T00:46:00.365+0000] {logging_mixin.py:188} INFO - [2026-05-27T00:46:00.365+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_incidentes_viales_v2 to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
+[2026-05-27T00:46:00.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_incidentes_dag.py took 0.119 seconds
